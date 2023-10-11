@@ -5,12 +5,14 @@ import { useTest } from '@/pinia/test';
 import { storeToRefs } from 'pinia';
 
 const test = useTest();
-const { piniaTest } = useTest();
+const { piniaTest, testTest } = useTest();
 
 const { state } = storeToRefs(test);
 
 onMounted(() => {
   piniaTest();
+
+  testTest();
 });
 </script>
 

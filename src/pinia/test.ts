@@ -22,5 +22,7 @@ export const useTest = defineStore('test', () => {
     console.log('piniaTest');
   };
 
-  return { state, piniaTest };
+  const testTest = async () => {};
+
+  return { state, piniaTest, testTest };
 });
